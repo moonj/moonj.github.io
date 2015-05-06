@@ -74,7 +74,7 @@ li {
   padding: 0;
   font-size: 24px;
   text-transform: uppercase;
-  display: block; }
+  display: inline-block; }
   .about li {
     float: left;
     margin-right: 20px;
