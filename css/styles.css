@@ -134,10 +134,11 @@ li {
     margin: 0.4em 0em; }
 
   .about li {
-    width: auto;
+    width: 100%;
     margin: 0.4em 0em;
     font-size: 18px; }
   .about li:last-child {
+    width: auto;
     padding-bottom: 0.8em;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
 
