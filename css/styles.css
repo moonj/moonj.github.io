@@ -127,7 +127,8 @@ li {
     font-size: 18px; } }
 @media (max-width: 600px) {
   .wrapper {
-    top: 20%; }
+    top: 20%;
+    left: 30px; }
 
   .links li {
     width: 100%;
