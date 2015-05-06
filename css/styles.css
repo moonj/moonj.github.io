@@ -139,7 +139,7 @@ li {
     font-size: 18px; }
   .about li:last-child {
     width: auto;
-    padding-bottom: 0.8em;
+    padding-bottom: 0.6em;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
 
 /*# sourceMappingURL=styles.css.map */
