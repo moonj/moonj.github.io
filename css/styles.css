@@ -1,4 +1,146 @@
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url("fonts/CooperHewitt-Book.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Book.woff") format("woff"), url("fonts/CooperHewitt-Book.svg#font") format("svg");
+  /* Legacy iOS */
+  font-weight: 400; }
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url("fonts/CooperHewitt-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/CooperHewitt-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Bold.woff") format("woff"), url("fonts/CooperHewitt-Bold.svg#font") format("svg");
+  /* Legacy iOS */
+  font-weight: 700; }
+@font-face {
+  font-family: 'CooperHewitt';
+  src: url("fonts/CooperHewitt-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Light.woff") format("woff"), url("fonts/CooperHewitt-Light.svg#font") format("svg");
+  /* Legacy iOS */
+  font-weight: 100; }
 body {
-  font-family: "Cooper Hewitt", sans-serif; }
+  font-family: 'CooperHewitt', sans-serif;
+  background: #1d2024;
+  color: white;
+  letter-spacing: 1px; }
+
+li {
+  display: inline-block;
+  white-space: nowrap; }
+
+.wrapper {
+  position: absolute;
+  top: 45%;
+  bottom: 55%;
+  left: 40px; }
+
+.links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block; }
+  .links li {
+    float: left;
+    margin-right: 20px;
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: lighter;
+    animation: fadein 2s 1;
+    -moz-animation: fadein 1s 1;
+    /* Firefox */
+    -webkit-animation: fadein 1s 1;
+    /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.5s;
+    /* Chrome, Safari, Opera */
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s; }
+    .links li a {
+      text-decoration: none;
+      transition: .2s color ease;
+      color: rgba(255, 255, 255, 0.5); }
+    .links li a:hover {
+      color: white; }
+
+.about {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: block; }
+  .about li {
+    float: left;
+    margin-right: 20px;
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: lighter;
+    animation: fadein 2s 1;
+    -moz-animation: fadein 2s 1;
+    /* Firefox */
+    -webkit-animation: fadein 2s 1;
+    /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+  .about li:nth-child(1) {
+    color: white;
+    font-weight: bolder; }
+  .about li:nth-child(2) {
+    -webkit-animation-delay: 0.3s;
+    /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+  .about li:nth-child(3) {
+    -webkit-animation-delay: 0.6s;
+    /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s; }
+  .about li:nth-child(4) {
+    -webkit-animation-delay: 0.9s;
+    /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.9s;
+    animation-delay: 0.9s; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@media (max-width: 980px) {
+  .about li {
+    font-size: 18px; } }
+@media (max-width: 600px) {
+  .wrapper {
+    top: 20%; }
+
+  .links li {
+    width: 100%;
+    margin: 0.4em 0em; }
+
+  .about li {
+    width: 100%;
+    margin: 0.4em 0em;
+    font-size: 18px; }
+  .about li:last-child {
+    padding-bottom: 0.8em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
 
 /*# sourceMappingURL=styles.css.map */
