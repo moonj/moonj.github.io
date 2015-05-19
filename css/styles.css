@@ -40,7 +40,7 @@ li {
   margin: 0;
   padding: 0;
   position: relative;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase; }
   .links li {
     float: left;
@@ -71,7 +71,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 26px;
   text-transform: uppercase;
   display: inline-block; }
   .about li {
@@ -122,10 +122,10 @@ li {
     opacity: 0; }
   to {
     opacity: 1; } }
-@media (max-width: 980px) {
+@media (max-width: 1024px) {
   .about li {
     font-size: 18px; } }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .wrapper {
     top: 20%;
     left: 30px; }
