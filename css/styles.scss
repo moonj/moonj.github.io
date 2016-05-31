@@ -122,7 +122,11 @@ li {
     -moz-animation-delay: 0.9s;
     animation-delay: 0.9s;
   }
-
+  li:nth-child(5) {
+    -webkit-animation-delay: 1.2s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
 }
 
 @keyframes fadein {
@@ -168,4 +172,42 @@ li {
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
   }
+}
+
+.circle-container {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  transform: translateX(-16px);
+  background: none;
+  display: inline-block;
+  pointer-events: none;
+}
+
+.circle-border {
+  border-radius: 7px;
+  border: 1px solid #069CC8;
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  position: absolute;
+	-webkit-transition: border .4s ease;
+}
+
+.circle {
+  background-color: #069CC8;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 2px;
+  height: 2px;
+  border-radius: 5px;
+}
+
+.ready .circle-border {
+  border: 1px solid #6BC806;
+}
+
+.ready .circle {
+	display: none;
 }
