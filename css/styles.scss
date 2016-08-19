@@ -112,10 +112,10 @@ h1 {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
     transition: .2s color ease;
+  }
 
-    &:hover {
-      color: rgba(255, 255, 255, 1);
-    }
+  a:hover {
+    color: rgb(255, 255, 255);
   }
 }
 
