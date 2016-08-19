@@ -27,7 +27,7 @@ li {
   margin: 0;
   padding: 0;
   position: relative;
-  font-size: 12px; }
+  font-size: 16px; }
   .links li {
     float: left;
     margin-right: 20px;
@@ -76,7 +76,15 @@ li {
 
 h1 {
   font-weight: 100;
-  margin: 0px 0px 10px 0px; }
+  margin: 0px 0px 10px 0px;
+  animation: fadein 1s 1;
+  -moz-animation: fadein 1s 1;
+  /* Firefox */
+  -webkit-animation: fadein 1s 1;
+  /* Safari and Chrome */
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
 
 .about {
   font-weight: 100;
