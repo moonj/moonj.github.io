@@ -1,24 +1,5 @@
 @font-face {
 	font-family: 'CooperHewitt';
-	src: url('fonts/CooperHewitt-Book.eot'); /* IE9 Compat Modes */
-	src: url('fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('fonts/CooperHewitt-Book.woff') format('woff'), /* Modern Browsers */
-	     url('fonts/CooperHewitt-Book.svg#font') format('svg'); /* Legacy iOS */
-  font-weight: 400;
-}
-
-
-@font-face {
-	font-family: 'CooperHewitt';
-	src: url('fonts/CooperHewitt-Bold.eot'); /* IE9 Compat Modes */
-	src: url('fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('fonts/CooperHewitt-Bold.woff') format('woff'), /* Modern Browsers */
-	     url('fonts/CooperHewitt-Bold.svg#font') format('svg'); /* Legacy iOS */
-  font-weight: 700;
-}
-
-@font-face {
-	font-family: 'CooperHewitt';
 	src: url('fonts/CooperHewitt-Light.eot'); /* IE9 Compat Modes */
 	src: url('fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 	     url('fonts/CooperHewitt-Light.woff') format('woff'), /* Modern Browsers */
@@ -43,6 +24,7 @@ li {
   top: 45%;
   bottom: 55%;
   left: 40px;
+  right: 40px;
 }
 
 .links {
@@ -51,7 +33,6 @@ li {
   padding: 0;
   position: relative;
   font-size: 12px;
-  text-transform: uppercase;
 
   li {
     float: left;
@@ -59,61 +40,82 @@ li {
     opacity: 0;
     color: rgba(255, 255, 255, 0.5);
     font-weight: lighter;
-    animation: fadein 2s 1;
+    animation: fadein 1s 1;
     -moz-animation: fadein 1s 1; /* Firefox */
     -webkit-animation: fadein 1s 1; /* Safari and Chrome */
     -webkit-animation-fill-mode:forwards;
     -moz-animation-fill-mode:forwards;
   	animation-fill-mode:forwards;
-    -webkit-animation-delay: 1.2s; /* Chrome, Safari, Opera */
-    -moz-animation-delay: 1.2s;
-    animation-delay: 1.2s;
 
     a {
       text-decoration: none;
-      transition: .2s color ease;
       color: rgba(255, 255, 255, 0.5);
+      transition: .2s color ease;
     }
 
     a:hover {
       color: rgb(255, 255, 255);
     }
   }
+
+  li:nth-child(1) {
+    -webkit-animation-delay: 0.2s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+
+  li:nth-child(2) {
+    -webkit-animation-delay: 0.4s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+
+  li:nth-child(3) {
+    -webkit-animation-delay: 0.6s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+
+  li:nth-child(4) {
+    -webkit-animation-delay: 0.8s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+
+  li:nth-child(5) {
+    -webkit-animation-delay: 1.0s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+  }
+}
+
+h1 {
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;;
 }
 
 .about {
-  list-style: none;
-  margin: 0;
+  font-weight: 100;
+  max-width: 720px;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
   padding: 0;
-  font-size: 26px;
-  text-transform: uppercase;
-  display: inline-block;
+  font-size: 24px;
+  animation: fadein 1.4s 1;
+  -moz-animation: fadein 1.4s 1; /* Firefox */
+  -webkit-animation: fadein 1.4s 1; /* Safari and Chrome */
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
 
-  li {
-    float: left;
-    margin-right: 24px;
-    opacity: 0;
+  a {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
-    font-weight: lighter;
-    animation: fadein 2s 1;
-  	animation-fill-mode:forwards;
-  }
+    transition: .2s color ease;
 
-  li:nth-child(1) {
-    color: rgba(255, 255, 255, 1);
-    font-weight: bolder;
-  }
-  li:nth-child(2) {
-    animation-delay: 0.3s;
-  }
-  li:nth-child(3) {
-    animation-delay: 0.6s;
-  }
-  li:nth-child(4) {
-    animation-delay: 0.9s;
-  }
-  li:nth-child(5) {
-    animation-delay: 1.2s;
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+    }
   }
 }
 
