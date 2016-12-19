@@ -50,33 +50,39 @@ li {
   }
 
   li:nth-child(1) {
-    -webkit-animation-delay: 0.2s; /* Chrome, Safari, Opera */
-    -moz-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.15s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.15s;
+    animation-delay: 0.15s;
   }
 
   li:nth-child(2) {
-    -webkit-animation-delay: 0.4s; /* Chrome, Safari, Opera */
-    -moz-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.3s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s;
   }
 
   li:nth-child(3) {
+    -webkit-animation-delay: 0.45s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+  }
+
+  li:nth-child(4) {
     -webkit-animation-delay: 0.6s; /* Chrome, Safari, Opera */
     -moz-animation-delay: 0.6s;
     animation-delay: 0.6s;
   }
 
-  li:nth-child(4) {
-    -webkit-animation-delay: 0.8s; /* Chrome, Safari, Opera */
-    -moz-animation-delay: 0.8s;
-    animation-delay: 0.8s;
+  li:nth-child(5) {
+    -webkit-animation-delay: 0.75s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.75s;
+    animation-delay: 0.75s;
   }
 
-  li:nth-child(5) {
-    -webkit-animation-delay: 1.0s; /* Chrome, Safari, Opera */
-    -moz-animation-delay: 1.0s;
-    animation-delay: 1.0s;
+  li:nth-child(6) {
+    -webkit-animation-delay: 0.9s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 0.9s;
+    animation-delay: 0.9s;
   }
 }
 
