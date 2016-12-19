@@ -1,12 +1,5 @@
-@font-face {
-  font-family: 'CooperHewitt';
-  src: url("fonts/CooperHewitt-Light.eot");
-  /* IE9 Compat Modes */
-  src: url("fonts/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Light.woff") format("woff"), url("fonts/CooperHewitt-Light.svg#font") format("svg");
-  /* Legacy iOS */
-  font-weight: 100; }
 body {
-  font-family: 'CooperHewitt', sans-serif;
+  font-family: 'mr-eaves-modern', sans-serif;
   background: #1d2024;
   color: white;
   letter-spacing: 1px; }
@@ -75,7 +68,7 @@ li {
     animation-delay: 1.0s; }
 
 h1 {
-  font-weight: 100;
+  font-weight: 600;
   margin: 0px 0px 10px 0px;
   animation: fadein 1s 1;
   -moz-animation: fadein 1s 1;
@@ -89,7 +82,7 @@ h1 {
 .about {
   font-weight: 100;
   max-width: 720px;
-  line-height: 1.5;
+  line-height: 1.3;
   margin: 0 0 20px 0;
   padding: 0;
   font-size: 24px;
@@ -137,3 +130,5 @@ h1 {
 
   .about {
     font-size: 18px; } }
+
+/*# sourceMappingURL=styles.css.map */
