@@ -148,30 +148,31 @@ h1 {
   #facebook a:hover {
     color: #336EEA; }
 
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
   .wrapper {
-    width: 100%; } }
+    width: 100%; }
+
+  .portfolio-item {
+    box-sizing: border-box;
+    margin: 20px 10px; }
+
+  .about {
+    margin: 60px 0px; } }
 @media (max-width: 800px) {
   .links li {
     width: 100%;
     margin: 4px 0px; }
 
-  .portfolio-item {
-    box-sizing: border-box;
-    margin: 20px 10px; }
-    .portfolio-item .role {
-      margin-top: 40px;
-      font-size: 20px; }
-    .portfolio-item h2 {
-      font-size: 42px;
-      font-weight: 400;
-      margin: 6px 0px 10px 0px; }
-    .portfolio-item .portfolio-links {
-      margin-bottom: 40px; }
-      .portfolio-item .portfolio-links li {
-        margin-bottom: 10px; }
-
-  .about {
-    margin: 60px 0px; } }
+  .portfolio-item .role {
+    margin-top: 40px;
+    font-size: 20px; }
+  .portfolio-item h2 {
+    font-size: 42px;
+    font-weight: 400;
+    margin: 6px 0px 10px 0px; }
+  .portfolio-item .portfolio-links {
+    margin-bottom: 40px; }
+    .portfolio-item .portfolio-links li {
+      margin-bottom: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */

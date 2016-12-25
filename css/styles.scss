@@ -197,9 +197,18 @@ h1 {
   }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
   .wrapper {
     width: 100%;
+  }
+
+  .portfolio-item {
+    box-sizing: border-box;
+    margin: 20px 10px;
+  }
+
+  .about {
+    margin: 60px 0px;
   }
 }
 
@@ -210,9 +219,6 @@ h1 {
   }
 
   .portfolio-item {
-    box-sizing: border-box;
-    margin: 20px 10px;
-
     .role {
       margin-top: 40px;
       font-size: 20px;
@@ -233,7 +239,4 @@ h1 {
     }
   }
 
-  .about {
-    margin: 60px 0px;
-  }
 }
