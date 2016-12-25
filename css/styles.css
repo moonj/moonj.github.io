@@ -92,13 +92,13 @@ h1 {
   color: white;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); }
   .portfolio-item .role {
-    margin-top: 180px;
+    margin: 180px 0px 0px 0px;
     opacity: 0.7; }
   .portfolio-item h2 {
     text-transform: uppercase;
     letter-spacing: 12px;
     font-size: 96px;
-    margin: 0px;
+    margin: 0px 0px 8px 0px;
     font-weight: 300; }
   .portfolio-item .portfolio-links {
     margin: 0px 0px 180px 0px;
