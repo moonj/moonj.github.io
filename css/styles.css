@@ -137,7 +137,9 @@ h1 {
     color: #FF4747; }
 
 #atbay {
-  background: linear-gradient(to bottom right, #ECC41E 0%, #E37B12 100%); }
+  background: url("../img/atbay.png") no-repeat;
+  background-position: center center;
+  background-size: cover; }
   #atbay a:hover {
     color: #E37B12; }
 
