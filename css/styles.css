@@ -154,7 +154,8 @@ h1 {
 
   .portfolio-item {
     box-sizing: border-box;
-    margin: 20px 10px; }
+    margin: 20px 10px;
+    padding: 20px; }
 
   .about {
     margin: 60px 0px; } }
