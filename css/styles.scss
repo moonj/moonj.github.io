@@ -205,7 +205,6 @@ h1 {
   .portfolio-item {
     box-sizing: border-box;
     margin: 20px 10px;
-    padding: 20px;
   }
 
   .about {
@@ -220,6 +219,8 @@ h1 {
   }
 
   .portfolio-item {
+    padding: 20px;
+
     .role {
       margin-top: 40px;
       font-size: 20px;
