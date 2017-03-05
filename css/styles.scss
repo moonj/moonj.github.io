@@ -197,6 +197,28 @@ h1 {
   }
 }
 
+.case {
+  font-size: 24px;
+
+  h1 {
+    margin: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 36px;
+  }
+  
+  p {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    max-width: 660px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 300;
+  }
+}
+
 @media (max-width: 1200px) {
   .wrapper {
     width: 100%;

@@ -148,6 +148,23 @@ h1 {
   #facebook a:hover {
     color: #336EEA; }
 
+.case {
+  font-size: 24px; }
+  .case h1 {
+    margin: 40px;
+    color: black;
+    font-weight: 500;
+    font-size: 36px; }
+  .case p {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    max-width: 660px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 300; }
+
 @media (max-width: 1200px) {
   .wrapper {
     width: 100%; }
