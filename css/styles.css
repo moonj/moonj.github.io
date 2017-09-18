@@ -39,4 +39,27 @@ li {
 .stanford {
   color: #A4DE37; }
 
+@media (max-width: 1160px) {
+  body {
+    padding: 16px; }
+
+  li {
+    font-size: 32px; }
+
+  .links li {
+    font-size: 24px; } }
+@media (max-width: 700px) {
+  .content {
+    margin-top: 100px; }
+
+  body {
+    padding: 8px; }
+
+  li {
+    font-size: 24px;
+    margin-bottom: 8px; }
+
+  .links li {
+    font-size: 18px; } }
+
 /*# sourceMappingURL=styles.css.map */
