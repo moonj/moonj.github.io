@@ -22,13 +22,13 @@ li {
   display: block;
   text-align: left;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 48px;
   margin: 0px; }
 
 .links {
   margin-top: 40px; }
   .links li {
-    font-size: 24px; }
+    font-size: 32px; }
 
 .apple {
   color: #FF4250; }
